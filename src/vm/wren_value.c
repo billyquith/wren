@@ -19,7 +19,7 @@
 // current capacity. The new capacity will be determined by *multiplying* the
 // old capacity by this. Growing geometrically is necessary to ensure that
 // adding to a collection has O(1) amortized complexity.
-#define GROW_FACTOR 2
+#define GROW_FACTOR 3
 
 // The maximum percentage of map entries that can be filled before the map is
 // grown. A lower load takes more memory but reduces collisions which makes
